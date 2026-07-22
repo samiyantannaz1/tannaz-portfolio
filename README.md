@@ -41,3 +41,8 @@ https://www.linkedin.com/in/tannaz-samiyan-69a884395/
 
 GitHub:
 https://github.com/samiyantannaz1
+
+
+## Preview
+
+![Tannaz Portfolio](./src/assets/screenhero.png)
