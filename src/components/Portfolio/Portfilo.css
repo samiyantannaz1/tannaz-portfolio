@@ -1,0 +1,339 @@
+.portfolio {
+
+    padding: 120px 0;
+
+    background: var(--bg);
+
+    transition: .35s;
+
+}
+
+/* ==========================
+   Section Title
+========================== */
+
+.section-title {
+
+    margin-bottom: 70px;
+
+}
+
+.section-title h1,
+.section-title h2 {
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+    color: var(--text);
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 15px;
+
+}
+
+.section-title p {
+
+    font-size: 1.1rem;
+
+    color: var(--text-light);
+
+}
+
+/* ==========================
+   Portfolio Card
+========================== */
+
+.portfolio-card {
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 24px;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    box-shadow: var(--shadow);
+
+    transition: all .35s ease;
+
+}
+
+.portfolio-card:hover {
+
+    transform: translateY(-10px);
+
+    border-color: var(--primary);
+
+    box-shadow: 0 20px 45px rgba(255, 200, 0, .18);
+
+}
+
+/* ==========================
+   Image
+========================== */
+
+.portfolio-card img {
+
+    width: 100%;
+
+    height: 340px;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: transform .6s ease;
+
+}
+
+.portfolio-card:hover img {
+
+    transform: scale(1.08);
+
+}
+
+/* ==========================
+   Overlay
+========================== */
+
+.portfolio-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 30px;
+
+    opacity: 0;
+
+    transition: .45s;
+
+    background: linear-gradient(
+        rgba(0,0,0,.15),
+        rgba(0,0,0,.88)
+    );
+
+    color: #fff;
+
+}
+
+.portfolio-card:hover .portfolio-overlay {
+
+    opacity: 1;
+
+}
+
+.portfolio-overlay h4 {
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+
+}
+
+.portfolio-overlay p {
+
+    color: rgba(255,255,255,.9);
+
+    margin-bottom: 30px;
+
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+.portfolio-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+.portfolio-buttons .btn {
+
+    border-radius: 50px;
+
+    padding: 11px 26px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.portfolio-buttons .btn-warning {
+
+    background: var(--primary);
+
+    color: #000;
+
+    border: none;
+
+}
+
+.portfolio-buttons .btn-warning:hover {
+
+    background: #ffd84d;
+
+}
+
+.portfolio-buttons .btn-outline-light {
+
+    border-width: 2px;
+
+}
+
+.portfolio-buttons .btn-outline-light:hover {
+
+    background: #fff;
+
+    color: #000;
+
+}
+
+.portfolio-buttons .btn:hover {
+
+    transform: translateY(-3px);
+
+}
+
+/* ==========================
+   Swiper
+========================== */
+
+.swiper {
+
+    padding-bottom: 70px;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+
+    color: var(--primary);
+
+    transition: .3s;
+
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+
+    transform: scale(1.2);
+
+}
+
+.swiper-pagination-bullet {
+
+    width: 10px;
+
+    height: 10px;
+
+    opacity: 1;
+
+    background: var(--border);
+
+}
+
+.swiper-pagination-bullet-active {
+
+    width: 30px;
+
+    border-radius: 20px;
+
+    background: var(--primary);
+
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:992px){
+
+.section-title h1,
+.section-title h2{
+
+font-size:2.5rem;
+
+}
+
+.portfolio-card img{
+
+height:300px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.portfolio{
+
+padding:90px 0;
+
+}
+
+.section-title h1,
+.section-title h2{
+
+font-size:2rem;
+
+}
+
+.section-title p{
+
+font-size:1rem;
+
+}
+
+.portfolio-card img{
+
+height:250px;
+
+}
+
+.portfolio-overlay h4{
+
+font-size:1.5rem;
+
+}
+
+.portfolio-buttons{
+
+flex-direction:column;
+
+}
+
+.portfolio-buttons .btn{
+
+width:100%;
+
+}
+
+}
