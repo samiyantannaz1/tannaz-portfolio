@@ -96,7 +96,7 @@ function About() {
 <div className="about-stats">
 
   <div className="stat-card">
-    <h3>4+</h3>
+    <h3>5+</h3>
     <span>Projects</span>
   </div>
 
