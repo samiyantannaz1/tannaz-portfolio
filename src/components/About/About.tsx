@@ -96,7 +96,7 @@ function About() {
 <div className="about-stats">
 
   <div className="stat-card">
-    <h3>5+</h3>
+    <h3>6+</h3>
     <span>Projects</span>
   </div>
 
@@ -137,23 +137,6 @@ function About() {
 
 
 
-            {/* <div className="about-buttons">
-
-              <a
-                href="#portfolio"
-                className="btn btn-warning btn-lg"
-              >
-                View Projects
-              </a>
-
-              <a
-                href="#contact"
-                className="btn btn-outline-dark btn-lg"
-              >
-                Contact Me
-              </a>
-
-            </div> */}
 
           </div>
 
