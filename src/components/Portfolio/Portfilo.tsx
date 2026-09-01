@@ -1,5 +1,3 @@
-
-
 import "./Portfilo.css";
 import { projects } from "../../data/projects";
 
@@ -17,7 +15,6 @@ function Portfolio() {
   return (
     <section className="portfolio py-5" id="portfolio">
       <div className="container">
-
         {/* Section Title */}
         <motion.div
           className="section-title text-center mb-5"
@@ -26,8 +23,8 @@ function Portfolio() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <h2>My Projects</h2>
-          <p>Some of my recent work</p>
+          <h2>Recent Projects</h2>
+          <p>A selection of my recent work</p>
         </motion.div>
 
         <Swiper
@@ -79,7 +76,6 @@ function Portfolio() {
                   <p>{project.category}</p>
 
                   <div className="portfolio-buttons">
-
                     <motion.a
                       href={project.github}
                       target="_blank"
@@ -111,14 +107,12 @@ function Portfolio() {
                         Live Demo
                       </motion.a>
                     )}
-
                   </div>
                 </div>
               </motion.div>
             </SwiperSlide>
           ))}
         </Swiper>
-
       </div>
     </section>
   );

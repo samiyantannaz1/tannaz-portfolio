@@ -1,23 +1,25 @@
 export const services = [
   {
     id: 1,
-    title: "Frontend Development",
+    title: "Web Design & Development",
     description:
-      "Building responsive and modern websites using React, TypeScript and Bootstrap.",
+      "Designing and developing modern, responsive websites tailored to your brand and business.",
     icon: "bi-code-slash",
   },
+
   {
     id: 2,
     title: "Responsive Design",
     description:
-      "Creating websites that work perfectly on desktop, tablet and mobile devices.",
+      "Creating seamless web experiences that look and work beautifully on desktop, tablet and mobile devices.",
     icon: "bi-phone",
   },
+
   {
     id: 3,
     title: "UI Implementation",
     description:
-      "Turning Figma and design files into clean, pixel-perfect web interfaces.",
+      "Turning Figma and design concepts into clean, modern and pixel-perfect web interfaces.",
     icon: "bi-palette",
   },
 ];

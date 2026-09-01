@@ -1,5 +1,3 @@
-
-
 import "./Services.css";
 import { services } from "../../data/services";
 
@@ -10,7 +8,6 @@ function Services() {
   return (
     <section className="services py-5" id="services">
       <div className="container">
-
         <motion.div
           className="section-title text-center mb-5"
           variants={fadeUp}
@@ -18,14 +15,12 @@ function Services() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <h2>My Skills</h2>
-          <p>What I can do for you</p>
+          <h2>What I Do</h2>
+          <p>Web design & frontend development services</p>
         </motion.div>
 
         <div className="row">
-
           {services.map((service, index) => (
-
             <motion.div
               key={service.id}
               className="col-lg-4 col-md-6 mb-4"
@@ -37,7 +32,6 @@ function Services() {
                 delay: index * 0.2,
               }}
             >
-
               <motion.div
                 className="service-card text-center"
                 whileHover={{
@@ -48,21 +42,15 @@ function Services() {
                   duration: 0.3,
                 }}
               >
-
                 <i className={`bi ${service.icon} service-icon`}></i>
 
                 <h4>{service.title}</h4>
 
                 <p>{service.description}</p>
-
               </motion.div>
-
             </motion.div>
-
           ))}
-
         </div>
-
       </div>
     </section>
   );
