@@ -4,8 +4,9 @@ import eduflow from "../assets/EduFlow CMS.png";
 import interior from "../assets/images/Interior Design.png";
 import kbn from "../assets/KBN.png";
 import nava from "../assets/NavaFarhadi.png";
-
+import newNava from "../assets/newNava.png"
 export const projects = [
+  // NAVA FARHADI - Previous Version
   {
     id: 1,
     title: "NAVA FARHADI",
@@ -15,8 +16,19 @@ export const projects = [
     demo: "https://samiyantannaz1.github.io/nava-farhadi/",
   },
 
+  // NAVA FARHADI - New Version
   {
     id: 2,
+    title: "NAVA FARHADI",
+    category: "Next.js • TypeScript • Tailwind CSS",
+    image: newNava,
+    github: "https://github.com/samiyantannaz1/nava-farhadi-portfolio",
+    demo: "https://samiyantannaz1.github.io/nava-farhadi-portfolio/",
+  },
+
+  // K.B.N Upholstery
+  {
+    id: 3,
     title: "K.B.N Upholstery",
     category: "React • TypeScript • Tailwind CSS",
     image: kbn,
@@ -24,8 +36,9 @@ export const projects = [
     demo: "https://samiyantannaz1.github.io/kbn-fabric/",
   },
 
+  // Digishop
   {
-    id: 3,
+    id: 4,
     title: "Digishop",
     category: "Next.js • React • Responsive",
     image: digishop,
@@ -33,8 +46,9 @@ export const projects = [
     demo: "",
   },
 
+  // ShopFlow
   {
-    id: 4,
+    id: 5,
     title: "ShopFlow",
     category: "React • TypeScript • Tailwind CSS",
     image: shopflow,
@@ -42,8 +56,9 @@ export const projects = [
     demo: "",
   },
 
+  // EduFlow CMS
   {
-    id: 5,
+    id: 6,
     title: "EduFlow CMS",
     category: "React • REST API • CRUD",
     image: eduflow,
@@ -51,8 +66,9 @@ export const projects = [
     demo: "",
   },
 
+  // Interior Design
   {
-    id: 6,
+    id: 7,
     title: "Interior Design",
     category: "Responsive UI/UX",
     image: interior,
